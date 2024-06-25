@@ -15,7 +15,7 @@ void rotate_90(int A[20][20], int m, int n)
     printf("matrix after having 90 degree rotation\n");
     for (j = 0; j < n; j++)
     {
-        for (i = 0, temp; i < n / 2; i++)
+        for (i = 0, temp; i < n; i++)
         {
             temp = A[i][j];
             A[i][j] = A[n - 1 - i][j];
